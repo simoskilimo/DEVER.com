@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVER - Accueil</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Assurez-vous de créer un fichier styles.css -->
+    <script defer src="script.js"></script> <!-- Assurez-vous de créer un fichier script.js -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">DEVER</a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+            <div class="buttons">
+                <a href="#appointment" class="btn-appointment">Prendre un RDV</a>
+                <div class="login-icon">
+                    <a href="#login">
+                        <img src="user-management-96.png" alt="Login Icon" class="login-img">
+                    </a>
+                </div>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <div id="index-page">
+        <div class="curve-div" data-aos="fade-up"  >
+         
+            <div class="social-sidebar">
+                <a href="https://www.facebook.com" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="mailto:example@example.com" class="social-icon" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/123456789" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://t.me/username" class="social-icon" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+            <h1 class="title-effect" data-aos="fade-up">DEVER</h1>
+            <canvas id="particle-canvas"></canvas>
+    
+            <!-- Ajout de la description -->
+            <div class="description" data-aos="fade-up">
+                <p class="description-text1">
+                Agence de Projets degital
+                </p>
+                <p class="description-text">
+                Libérez votre site Web pour la réussite ultime : Nous offrons aussi des services de graphisme.
+                </p>
+                <a class="but1" href="">Demmarer mon project</a>
+            </div>
+        </div>
+
+        <div class="dv" id="dv">
+        <div class=" text-white py-12" data-aos="fade-up">
+            <div class="container mx-auto text-center">
+              <h2 class="text-4xl font-bold  mb-8" data-aos="fade-up">Nos services</h2>
+              <div class="grid grid-cols-1 md:grid-cols-3 m-20 gap-8">
+                <div class="bg-card p-6 rounded-lg shadow-lg shadow-blue-400 transition duration-300 transform hover:scale-105">
+                  <img src="site.png" alt="website-creation" class="mx-auto mb-4" />
+                  <h3 class="text-xl font-semibold mt-20 mb-2" data-aos="fade-up">Création de site internet</h3>
+                  <p class=" text-muted-foreground">Création de site ou refonte sur mesure sur WordPress</p>
+                </div>
+                <div class="bg-card p-6 rounded-lg shadow-lg shadow-blue-400 transition duration-300 transform hover:scale-105">
+                  <img src="about.png" alt="seo" class="mx-auto mb-4" />
+                  <h3 class="text-xl font-semibold mb-2" data-aos="fade-up">Référencement SEO</h3>
+                  <p class="text-muted-foreground">Optimisation du référencement naturel sur WordPress pour vous positionner en tête des résultats de recherche sur Google.</p>
+                </div>
+                <div class="bg-primary p-6 rounded-lg shadow-lg shadow-blue-400 transition duration-300 transform hover:scale-105">
+                  <img src="eco.png" alt="ecommerce" class="mx-auto mb-4" />
+                  <h3 class="text-xl font-semibold mt-20 mb-2 text-primary-foreground" data-aos="fade-up">Création de site E-commerce</h3>
+                  <p class="text-primary-foreground">Solutions clé en main pour la création de sites E-commerce sur Woocommerce.</p>
+                </div>
+              </div>
+              <div class="container mx-auto text-center" data-aos="fade-up">
+              
+              <div class="grid grid-cols-1 md:grid-cols-3 m-20 gap-8" data-aos="fade-up">
+                <div class="bg-card p-6 rounded-lg shadow-lg shadow-blue-400 transition duration-300 transform hover:scale-105">
+                  <img src="logos.png" alt="website-creation" class="mx-auto mb-4" />
+                  <h3 class="text-xl font-semibold mt-20 mb-2" data-aos="fade-up">Création de logos </h3>
+                  <p class=" text-muted-foreground">Création de site ou refonte sur mesure sur WordPress</p>
+                </div>
+                <div class="bg-card p-6 rounded-lg shadow-lg shadow-blue-400 transition duration-300 transform hover:scale-105" data-aos="fade-up">
+                  <img src="banner3.jpg" alt="seo" class="mx-auto mb-4" />
+                  <h3 class="text-xl mt-20 font-semibold mb-2" data-aos="fade-up">Création de banner</h3>
+                  <p class="text-muted-foreground">Optimisation du référencement naturel sur WordPress pour vous positionner en tête des résultats de recherche sur Google.</p>
+                </div>
+                <div class="bg-primary p-6 rounded-lg shadow-lg shadow-blue-400 transition duration-300 transform hover:scale-105" data-aos="fade-up">
+                  <img src="des2.jpg" alt="ecommerce" class="mx-auto mb-4" />
+                  <h3 class="text-xl font-semibold mt-20 mb-2 text-primary-foreground" data-aos="fade-up">Création de design complete de votre projet</h3>
+                  <p class="text-primary-foreground">Solutions clé en main pour la création de sites E-commerce sur Woocommerce.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <section id="section" class="h-100 w-100 text-black shadow-lg shadow-blue-400 py-100" data-aos="fade-up">
+            <div class="container mx-auto flex flex-col md:flex-row items-center">
+              <div class="w-full md:w-1/2 px-4">
+                <h1 class="text-4xl font-bold mb-4 text-blue-400">Parlons de votre projet</h1>
+                <p class="text-lg mb-6">Nous sommes prêts à doter votre entreprise de solutions de référencement stratégiques. Faites le premier pas vers l'excellence numérique.</p>
+                <button id="bg-primary" class="bg-primary text-primary-foreground hover:bg-primary/80 py-3 px-6 rounded-lg flex items-center">
+                  <img aria-hidden="true" alt="phone-icon" src="https://openui.fly.dev/openui/24x24.svg?text=📞" class="mr-2" />
+                  Consultation gratuite
+                </button>
+              </div>
+              <div class="w-full md:w-1/2 px-4 mt-8 md:mt-0">
+                <img src="123.png" alt="Person thinking about project" class="small-image" />
+              </div>
+            </div>
+          </section>
+
+
+          <h1 id="AA1">Blog</h1>
+<div id="AA" class="grid grid-cols-2 md:grid-cols-3 gap-10" data-aos="fade-up">
+    <div class="reveal-top">
+        <img class="image h-auto m-2 max-w-full rounded-lg cursor-pointer transform transition-transform duration-300" src="P1.jpg" alt="">
+    </div>
+    <div class="reveal-top">
+        <img class="image h-auto m-2 max-w-full rounded-lg cursor-pointer transform transition-transform duration-300" src="P2.jpg" alt="">
+    </div>
+    <div class="reveal-top">
+        <img class="image h-auto m-2 max-w-full rounded-lg cursor-pointer transform transition-transform duration-300" src="P3.jpg" alt="">
+    </div>
+    <div class="reveal-top">
+        <img class="image h-auto m-2 max-w-full rounded-lg cursor-pointer transform transition-transform duration-300" src="P4.jpg" alt="">
+    </div>
+    <div class="reveal-top">
+        <img class="image h-auto m-2 max-w-full rounded-lg cursor-pointer transform transition-transform duration-300" src="P5.jpg" alt="">
+    </div>
+    <div class="reveal-top">
+        <img class="image h-auto m-2 max-w-full rounded-lg cursor-pointer transform transition-transform duration-300" src="P6.jpg" alt="">
+    </div>
+    <div class="reveal-left">
+        <img class="image h-auto m-2 max-w-full rounded-lg cursor-pointer transform transition-transform duration-300" src="P7.jpg" alt="">
+    </div>
+    <div class="reveal-left">
+        <img class="image h-auto m-2 max-w-full rounded-lg cursor-pointer transform transition-transform duration-300" src="P8.jpg" alt="">
+    </div>
+    <div class="reveal-left">
+        <img class="image h-auto m-2 max-w-full rounded-lg cursor-pointer transform transition-transform duration-300" src="P10.jpg" alt="">
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="imageModal" class="fixed inset-0 hidden justify-center items-center bg-black bg-opacity-75 z-50 transition-opacity duration-300 opacity-0">
+    <div class="relative flex justify-center items-center transform transition-transform duration-300 scale-0">
+        <img id="modalImage" class="max-w-full max-h-full rounded-lg" src="" alt="">
+        <button id="closeModal" class="absolute top-2 right-2 text-white bg-red-500 hover:bg-red-700 rounded-full px-3 py-1">Close</button>
+    </div>
+</div>
+          
+      
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+      const images = document.querySelectorAll('.image');
+      const modal = document.getElementById('imageModal');
+      const modalImage = document.getElementById('modalImage');
+      const closeModal = document.getElementById('closeModal');
+      const modalContent = modal.querySelector('.relative');
+  
+      images.forEach(image => {
+          image.addEventListener('click', function () {
+              modalImage.src = this.src;
+              modal.classList.remove('hidden', 'opacity-0');
+              modal.classList.add('opacity-100');
+              modalContent.classList.remove('scale-0');
+              modalContent.classList.add('scale-100');
+          });
+  
+          image.addEventListener('mouseover', function () {
+              this.classList.add('scale-105');
+          });
+  
+          image.addEventListener('mouseout', function () {
+              this.classList.remove('scale-105');
+          });
+      });
+  
+      closeModal.addEventListener('click', function () {
+          modal.classList.add('opacity-0');
+          modal.classList.remove('opacity-100');
+          modalContent.classList.add('scale-0');
+          modalContent.classList.remove('scale-100');
+          setTimeout(() => {
+              modal.classList.add('hidden');
+          }, 300); // Match the duration of the transition
+      });
+  
+      modal.addEventListener('click', function (event) {
+          if (event.target === modal) {
+              modal.classList.add('opacity-0');
+              modal.classList.remove('opacity-100');
+              modalContent.classList.add('scale-0');
+              modalContent.classList.remove('scale-100');
+              setTimeout(() => {
+                  modal.classList.add('hidden');
+              }, 300); // Match the duration of the transition
+          }
+      });
+  });
+  </script>
+
+
+<script>
+  // Configuration for different reveal elements
+  ScrollReveal().reveal('.reveal', {
+    distance: '50px',
+    duration: 1000, // Slower animation
+    easing: 'ease-in-out',
+    origin: 'bottom'
+  });
+  
+  ScrollReveal().reveal('.reveal-left', {
+    distance: '80px',
+    duration: 1200,
+    easing: 'ease-in-out',
+    origin: 'left'
+  });
+  
+  ScrollReveal().reveal('.reveal-right', {
+    distance: '80px',
+    duration: 1200,
+    easing: 'ease-in-out',
+    origin: 'right'
+  });
+  
+  ScrollReveal().reveal('.reveal-top', {
+    distance: '50px',
+    duration: 1500,
+    easing: 'ease-in-out',
+    origin: 'top'
+  });
+  
+  </script>
+</body>
+</html>
